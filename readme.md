@@ -20,6 +20,16 @@ to render the same components into native components for android and ios.
 
 ```
 
+**My take**
+
+```
+The same way that i use react, components and render into web application via reacDom render is the
+same way that i use reactNative and employ react to create native applications.
+
+{ brings in special components that may be used from within react and thus rendered into a real native mobile application }
+
+```
+
 **React Native**
 
 ```
@@ -81,6 +91,10 @@ Views in React Native is what is converted into business logic
 Javascript is not converted into native code there is a minithread that runs you js code through a bridge via react native.
 
 Only the native widgets are compled(Views)
+
+React native converts the react components into native widgets
+
+Javascript is not converted into the native widgtes...It runs separately from within the application.
 ```
 
 **EXPO VS REACT NATIVE CLI**
@@ -130,7 +144,6 @@ It is possible to switch from expo to react native CLI which is a great advantag
 
 ```
 
-
 **How expo works**
 
 ```
@@ -151,6 +164,7 @@ the applications that clients use and they do not need to have expo installed.
 You may also always switch to a non-expo development workflow.
 }
 ```
+
 **Notes by**
 
 ```
